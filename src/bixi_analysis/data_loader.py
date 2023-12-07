@@ -48,4 +48,4 @@ def preprocess_data(data, columns_to_scale=None, date_columns=None):
     return data
 
 # Now, using the function to load your data.
-data = load_data_from_csv(r'C:/Users/PC/Downloads/OD_2019-07.csv')
+data = load_data_from_csv(r'https://raw.githubusercontent.com/ashrithayu/bixi_analysis/main/OD_2019-07.csv')
