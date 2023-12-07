@@ -34,7 +34,7 @@ def preprocess_data(data, columns_to_scale=None, date_columns=None):
     return data
 
 # Load and preprocess data
-raw_data = load_data_from_csv(r'C:\Users\PC\Downloads\OD_2019-07.csv')
+raw_data = load_data_from_csv(r'https://raw.githubusercontent.com/ashrithayu/bixi_analysis/main/OD_2019-07.csv')
 processed_data = preprocess_data(raw_data, columns_to_scale=['duration_sec'], date_columns=['start_date', 'end_date'])
 
 def get_model_pipeline(model, scaler=None):
